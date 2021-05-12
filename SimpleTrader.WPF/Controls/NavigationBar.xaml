@@ -16,11 +16,20 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
+                   Padding="10"
+                   FontSize="28"
+                   Foreground="White"
                    Text="Simple Trader"
                    Background="{StaticResource BrushPrimaryOne}"/>
 
         <Grid Grid.Row="1"
+              RenderOptions.EdgeMode="Aliased"
               Background="{StaticResource BrushPrimaryTwo}">
+            <Grid.Resources>
+                <Style TargetType="{x:Type RadioButton}"
+                       BasedOn="{StaticResource NavButton}"></Style>
+            </Grid.Resources>
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
