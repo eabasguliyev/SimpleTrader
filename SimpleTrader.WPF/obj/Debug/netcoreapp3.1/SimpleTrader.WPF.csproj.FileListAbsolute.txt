@@ -71,3 +71,7 @@ C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.
 C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.dll
 C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.pdb
 C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\SimpleTrader.WPF.genruntimeconfig.cache
+C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexCard.g.cs
+C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexCard.baml
+C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.g.cs
+C:\Users\elgun\source\repos\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.baml
