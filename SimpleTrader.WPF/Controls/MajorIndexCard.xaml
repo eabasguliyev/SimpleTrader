@@ -18,7 +18,7 @@
 
             <TextBlock Grid.Row="0"
                        FontSize="18"
-                       Text="{Binding Type, FallbackValue=Index}"
+                       Text="{Binding IndexName, FallbackValue=Index}"
                        HorizontalAlignment="Center"/>
 
             <Grid Grid.Row="1"

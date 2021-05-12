@@ -19,11 +19,6 @@ namespace SimpleTrader.WPF
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            new MajorIndexService().GetMajorIndex(MajorIndexType.DowJones).ContinueWith((task) =>
-            {
-                var index = task.Result;
-            });
-
             Window window = new MainWindow();
 
 
