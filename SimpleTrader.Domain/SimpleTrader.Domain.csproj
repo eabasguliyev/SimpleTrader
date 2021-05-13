@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Exceptions\" />
-    <Folder Include="Services\" />
+    <Folder Include="Services\TransactionServices\" />
   </ItemGroup>
 
 </Project>
