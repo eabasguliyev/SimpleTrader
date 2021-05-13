@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimpleTrader.WPF.ViewModels
 {
-    class PortfolioViewModel:ViewModelBase
+    public class PortfolioViewModel:ViewModelBase
     {
     }
 }

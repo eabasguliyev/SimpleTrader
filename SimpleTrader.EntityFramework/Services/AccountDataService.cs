@@ -11,10 +11,10 @@ namespace SimpleTrader.EntityFramework.Services
     {
         private readonly SimpleTraderDbContextFactory _contextFactory;
         private readonly NonQueryDataService<Account> _nonQueryDataService;
-        public AccountDataService(SimpleTraderDbContextFactory contextFactory, NonQueryDataService<Account> nonQueryDataService)
+        public AccountDataService(SimpleTraderDbContextFactory contextFactory)
         {
             _contextFactory = contextFactory;
-            _nonQueryDataService = nonQueryDataService;
+            _nonQueryDataService = new NonQueryDataService<Account>(contextFactory);
         }
 
         public async Task<IEnumerable<Account>> GetAll()

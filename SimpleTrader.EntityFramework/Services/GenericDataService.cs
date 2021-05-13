@@ -13,10 +13,10 @@ namespace SimpleTrader.EntityFramework.Services
     {
         private readonly SimpleTraderDbContextFactory _contextFactory;
         private readonly NonQueryDataService<T> _nonQueryDataService;
-        public GenericDataService(SimpleTraderDbContextFactory contextFactory, NonQueryDataService<T> nonQueryDataService)
+        public GenericDataService(SimpleTraderDbContextFactory contextFactory)
         {
             _contextFactory = contextFactory;
-            _nonQueryDataService = nonQueryDataService;
+            _nonQueryDataService = new NonQueryDataService<T>(contextFactory);
         }
 
 
